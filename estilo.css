@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/*--------------------------seção1---------------------------*/
+body {
+    padding: 0px 0px;
+}
+
+.container-topo {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container-logo {
+    width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+} 
+
+.container-links {
+    width: 385px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+} 
+
+
+.container-links a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #233032;
+}
+.container-logo-imagem {
+	width: 100px;
+	height: 100px;
+}
+
+.container-logo-imagem img {
+	width: 100%;
+	height: 100%;
+}
+.container-logo p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #7990B0;
+}
+
+/*--------------------------seção2---------------------------*/
+#sobre{
+	background-color: #8579af;
+	padding: 50px 20px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container-texto{
+	color: #fff;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	flex: 1 1 308px;
+    text-align: justify;
+}
+
+.container-texto p {
+	font-size: 16px;
+	line-height: 26px;
+}
+
+.container-texto h2 {
+	font-size: 28px;
+	line-height: 40px;
+}
+
+.container-imagem {
+	flex: 1 1 108px;
+}
+
+.container-imagem img {
+	width: 100%;
+    border-radius: 100%;
+    padding: 80px;
+}
+
+/*--------------------------seção3---------------------------*/
+.container-titulo-site {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  font-size: 28px;
+  color: #fff;
+  background-color: #0a9077b3;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.secao-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.container-descricao {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-descricao h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.container-quartos {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.projeto {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin: 5px auto;
+  background-color: #8579af;
+  border-radius: 10px;
+}
+.projeto img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.projeto p {
+  margin: auto 5px;
+  color: aliceblue;
+}
+
+.projeto a {
+  text-decoration: none;
+  color: #333;
+}
+
+.secao-container h2{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+
+
+/*--------------------------seção4---------------------------*/
+.container-rodape {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color:#8579af;
+    color: aliceblue;
+  }
+  .container-imagem {
+    width: 100px;
+  }
+  .container-imagem img {
+    width: 100%;
+    height: 100%;
+  }
+  .container-contato {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .container-contato div {
+    padding: 10px 0;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 4px;
+    flex: 1 1 240px;
+    text-align: center;
+  }
+  
+  .container-descricao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .container-descricao p{
+    width: 900px;
+  }
+
+  .meus{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .container-descricao .seta {
+    width: 40px;
+    height: 40px;
+    background-image: url("./img/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #dddddd;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 60px;
+    right: 0px;
+ 
+  }
+  
+  .container-redes-sociais {
+    width: 100%;
+    height: 70px;
+    margin-right: 5px;
+  }
+  
+.container-redes-sociais .zap{
+  width: 30px;
+  height: 30px;
+  margin-left: 50%;
+}
+
+
+
+
+  
+  
